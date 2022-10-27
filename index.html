@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="input-design">
+            <p>Metric/Imperial Unit Conversion</p>
+            <input type="number" id="nbr-input">
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div id="output-design">
+            <div class="output-box">
+                <p>Length (Meter/Feet)</p>
+                <p id="length" class="results"> meters = feet | feet = meters</p>
+            </div>
+            <div class="output-box">
+                <p>Volume (Liters/Gallons)    
+                <p id="volume" class="results"> liters = gallons | gallons = liters</p>        </div>
+            <div class="output-box">
+                <p>Mass (kilograms/Pounds)</p>
+                <p id="mass" class="results"> kilos = poinds | pounds = kilos</p>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
